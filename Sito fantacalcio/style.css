@@ -1,0 +1,295 @@
+css
+•{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #7f00f0;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+header h1 {
+    color: #fff;
+}
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.competition-list {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.competition-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.competition-card:hover {
+    transform: translateY(-5px);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 30px;
+}
+/* Modifica per disporre le sezioni a sinistra e centrate */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section table, section ul {
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+.giocatore-img {
+    width: 90px;      /* Imposta la larghezza dell'immagine */
+    height: 120px;     /* Imposta l'altezza dell'immagine */
+    border-radius: 10%;  /* Rende l'immagine tonda */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.squadra-img {
+    width: 65px;      /* Imposta la larghezza dell'immagine */
+    height: 65px;     /* Imposta l'altezza dell'immagine */
+    border-radius: 50%;  /* Rende l'immagine tonda */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+/* Stile per ogni partita */
+.partita {
+    display: flex;
+    justify-content: space-between; /* Distribuisce gli elementi in modo uniforme */
+    align-items: center; /* Allinea verticalmente al centro */
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Stile per le squadre */
+.squadra {
+    font-size: 20px;
+}
+/* Risultato con cornice ovale celeste */
+.risultato {
+    font-size: 15px;
+    color: #333;
+    background-color: #87CEFA; /* Celeste chiaro */
+    border-radius: 100px; /* Bordo ovale */
+    padding: 5px 10px; /* Aggiungi un po' di padding per rendere più ampio il risultato */
+}
+/* Stile per la sezione partecipanti */
+.partecipanti {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.partecipante {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 300px;
+    text-align: center; /* Centra il testo */
+}
+
+.nome-squadra {
+    font-size: 24px; /* Più grande del nome del partecipante */
+    font-weight: bold;
+    color: black; /* Colore della squadra, puoi modificarlo */
+    margin-bottom: 10px; /* Spazio tra il nome della squadra e il nome del partecipante */
+}
+
+.nome-partecipante {
+    font-size: 18px;
+    color: #333;
+}
+/* Link stilizzati come bottoni */
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Aggiunge l'effetto di transizione */
+}
+
+/* Stile di base per i pulsanti */
+header nav ul li a.btn {
+    background-color: #7f00f0; /* Colore verde */
+}
+
+/* Effetto hover per i pulsanti */
+header nav ul li a.btn:hover {
+    background-color: #423189; /* Colore verde più scuro al passaggio del mouse */
+    transform: scale(1.05); /* Aggiunge un effetto di ingrandimento al passaggio del mouse */
+}
+
+/* Main */
+main {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+.meme-img {
+    width: 400px;      /* Imposta la larghezza dell'immagine */
+    height: 120px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+.meme2-img {
+    width: 200px;      /* Imposta la larghezza dell'immagine */
+    height: 400px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+
+.meme3-img {
+    width: 300px;      /* Imposta la larghezza dell'immagine */
+    height: 200px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+.meme4-img {
+    width: 400px;      /* Imposta la larghezza dell'immagine */
+    height: 200px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+video-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+video {
+    width: 100%; /* Fa in modo che il video si adatti alla larghezza del contenitore */
+    max-width: 600px; /* Imposta una larghezza massima per il video */
+    border-radius: 8px; /* Aggiunge bordi arrotondati al video */
+}
+
+.meme6-img {
+    width: 400px;      /* Imposta la larghezza dell'immagine */
+    height: 250px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+.meme7-img {
+    width: 350px;      /* Imposta la larghezza dell'immagine */
+    height: 400px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+.meme8-img {
+    width: 350px;      /* Imposta la larghezza dell'immagine */
+    height: 400px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+.meme9-img {
+    width: 400px;      /* Imposta la larghezza dell'immagine */
+    height: 300px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+.meme10-img {
+    width: 450px;      /* Imposta la larghezza dell'immagine */
+    height: 300px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
+.meme11-img {
+    width: 350px;      /* Imposta la larghezza dell'immagine */
+    height: 400px;     /* Imposta l'altezza dell'immagine */
+    margin-right: 10px;  /* Distanza tra l'immagine e il testo */
+    vertical-align: middle; /* Allinea verticalmente l'immagine al testo */
+}
